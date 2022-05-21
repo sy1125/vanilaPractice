@@ -1,3 +1,118 @@
 .hidden {
   display: none;
 }
+
+img {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+}
+
+#clock {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+  font-weight: 600;
+  color: #fff;
+}
+
+#login-form {
+  position: absolute;
+  top: 0px;
+  right: 10px;
+}
+
+#login-form input {
+  width: 200px;
+  height: 30px;
+  background: none;
+  border: none;
+}
+
+#login-form button {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+#greeting {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#todo-form {
+  position: absolute;
+  top: 100px;
+  right: 10px;
+}
+
+#todo-form input {
+  width: 300px;
+  height: 30px;
+  background: none;
+  border: 1px solid #000;
+}
+
+#todo-list {
+  position: absolute;
+  right: 10px;
+  top: 150px;
+}
+
+#todo-list li {
+  margin-top: 6px;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: right;
+  color: #fff;
+}
+
+#todo-list li button {
+  margin-left: 8px;
+  width: 22px;
+  height: 22px;
+  color: red;
+  background: #eee;
+  border: 1px solid #444;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+#todo-form input::placeholder {
+  color: #000;
+}
+
+#quote {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 15px;
+  color: #fff;
+}
+
+#weather {
+  position: absolute;
+  right: 10px;
+  top: 50px;
+}
+
+#weather span {
+  display: block;
+  font-size: 15px;
+}
+
+#weather span+span {
+  margin-top: 6px;
+}
