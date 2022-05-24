@@ -29,13 +29,13 @@ img {
   text-align: center;
   font-weight: 700;
 }
-.login #login-form {
+#login-form {
   margin: 20px auto;
   padding-top: 30px;
   width: 400px;
   border: 1px solid #ccc;
 }
-.login #login-form input {
+#login-form input {
   display: block;
   margin: 0 auto;
   padding-left: 10px;
@@ -45,18 +45,18 @@ img {
   border: 1px solid #ccc;
   border-radius: 6px;
 }
-.login #login-form .form-check {
+#login-form .form-check {
   display: inline-block;
   margin: 20px 0 0 50px;
   width: 15px;
   height: 15px;
   border-radius: 100%;
 }
-.login #login-form .form-label {
+#login-form .form-label {
   font-size: 14px;
   color: #888
 }
-.login #login-form button {
+#login-form button {
   display: block;
   margin: 30px auto;
   width: 300px;
@@ -166,3 +166,5 @@ img {
 #weather span+span {
   margin-top: 6px;
 }
+
+/*# sourceMappingURL=/style.78032849.css.map */
